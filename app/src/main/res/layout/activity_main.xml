@@ -7,6 +7,39 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/imcMoyenHomme"
+        android:layout_width="199dp"
+        android:layout_height="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <TextView
+        android:id="@+id/ImcMoyenFemmes"
+        android:layout_width="199dp"
+        android:layout_height="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <TextView
+        android:id="@+id/imcMoyen"
+        android:layout_width="199dp"
+        android:layout_height="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <TextView
         android:id="@+id/idViewIMCFemme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,7 +60,7 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.684"
+        app:layout_constraintVertical_bias="0.664"
         tools:layout_editor_absoluteX="0dp" />
 
     <EditText
@@ -133,7 +166,7 @@
         app:layout_constraintVertical_bias="0.29" />
 
     <EditText
-        android:id="@+id/saisiePoids"
+        android:id="@+id/SaisieChambre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -238,10 +271,10 @@
         android:text="Afficher"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintHorizontal_bias="0.989"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.633" />
+        app:layout_constraintVertical_bias="0.625" />
 
     <Spinner
         android:id="@+id/spinnerAfficherPatient"
@@ -253,32 +286,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.619" />
-
-    <EditText
-        android:id="@+id/SaisieNombreHommes"
-        android:layout_width="190dp"
-        android:layout_height="24dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732" />
-
-    <EditText
-        android:id="@+id/SaisieIMCMoyen"
-        android:layout_width="190dp"
-        android:layout_height="24dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799" />
 
     <TextView
         android:id="@+id/idViewIMCHomme"
@@ -302,7 +309,7 @@
         app:layout_constraintHorizontal_bias="0.035"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.734" />
+        app:layout_constraintVertical_bias="0.707" />
 
     <TextView
         android:id="@+id/idNombredeFemmes"
@@ -314,7 +321,7 @@
         app:layout_constraintHorizontal_bias="0.039"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.766" />
+        app:layout_constraintVertical_bias="0.74" />
 
     <TextView
         android:id="@+id/idViewIMCMoyen"
@@ -323,49 +330,10 @@
         android:text="IMC moyen:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
-
-    <EditText
-        android:id="@+id/IMCmoyenHomme"
-        android:layout_width="190dp"
-        android:layout_height="24dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833" />
-
-    <EditText
-        android:id="@+id/SaisienombreFemmes"
-        android:layout_width="190dp"
-        android:layout_height="24dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.765" />
-
-    <EditText
-        android:id="@+id/IMCMoyenFemme"
-        android:layout_width="190dp"
-        android:layout_height="24dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.861" />
+        app:layout_constraintVertical_bias="0.789" />
 
     <Button
         android:id="@+id/buotonAfficherLesStats"
@@ -376,5 +344,27 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.956"
         tools:layout_editor_absoluteX="-1dp" />
+
+    <TextView
+        android:id="@+id/viewNombreHommes"
+        android:layout_width="199dp"
+        android:layout_height="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <TextView
+        android:id="@+id/nombreFemmes"
+        android:layout_width="199dp"
+        android:layout_height="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
