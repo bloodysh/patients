@@ -7,5 +7,5 @@ public class Patient {
     private int Poids;
     private int NumChambre;
 
-    public Patient
+    public Patient{String Nom, String Prenom, float Taille, int Poids}
 }
