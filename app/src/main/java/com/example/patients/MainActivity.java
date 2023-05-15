@@ -29,12 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
                 unPatient= new Patient(nom, prenom, taille, numChambre, poids);
 
-                Toast.makeText(MainActivity.this, unPatient.toString(),Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, unPatient.afficherPatient() ,Toast.LENGTH_LONG).show();
             }
         });
-        public String afficherPatient(){
-            return nom, prenom, taille, numChambre, poids
-        }
 
-    }
+    };
 }

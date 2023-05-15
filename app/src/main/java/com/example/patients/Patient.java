@@ -61,7 +61,7 @@ public class Patient {
         }
         return inc;
     }
-    public String resultat (){
+    public String IndicateurImc (){
         String body;
         if (calculerImc() < 18.5){
             body= " Vous etes maigres";
@@ -84,8 +84,11 @@ public class Patient {
         return body;
     }
     public String toString(){
-        return nom +" "+ prenom + " votre IMC est :" + calculerImc() +"," + resultat();
+        return nom +" "+ prenom + " votre IMC est :" + calculerImc();
 
+    }
+    public String afficherPatient(){
+        return nom +" " + prenom +" :" + taille +"m, chambre n° "+ numChambre +", "+ poids +"kg, IMC: "+ calculerImc() +" " + IndicateurImc();
     }
 }
 
